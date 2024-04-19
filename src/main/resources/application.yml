@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: java-development-playground
+
+app-playground:
+  scrapper:
+    url-tasas-chile: https://tasas.cmfchile.cl/sbifweb/servlet/InfoFinanciera?indice=4.2.1&FECHA=03/03/2024
