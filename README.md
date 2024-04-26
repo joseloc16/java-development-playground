@@ -5,6 +5,12 @@
 Este documento consta de dos hojas: Documentos de ventas Procesado y Líneas Documentos de ventas.
 La idea central es poder leer la información en el archivo excel y poder devolverla en un formato json.
 
+1. **Documento Excel: Importar excel-fc**
+
+Puede descargar el archivo utilizado a partir del siguiente enlace: [ImportarExcelFC.xlsx](archivos/ImportarExcelFC.xlsx)
+
+El archivo debe verse de la siguiente manera:
+
 Hoja1: Documentos de ventas Procesado
 <p align="center">
   <img src="img/excel_fc-documentos_de_ventas_procesados.png" alt="MasterHead">
@@ -15,7 +21,7 @@ Hoja2: Líneas Documentos de ventas
   <img src="img/excel_fc-lineas_documentos_ventas.png" alt="MasterHead">
 </p>
 
-1. **Pruebas en Postman**:
+2. **Pruebas en Postman**:
    ```bash
     curl --location 'http://localhost:8080/api-playground/excel/import-excel-fc' \
    --form 'file=@"postman-cloud:///1eeebeeb-8834-4ae0-94b0-e763e37c3e01"'
