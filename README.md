@@ -5,8 +5,14 @@
 Este documento consta de dos hojas: Documentos de ventas Procesado y Líneas Documentos de ventas.
 La idea central es poder leer la información en el archivo excel y poder devolverla en un formato json.
 
+Hoja1: Documentos de ventas Procesado
 <p align="center">
   <img src="img/excel_fc-documentos_de_ventas_procesados.png" alt="MasterHead">
+</p>
+
+Hoja2: Líneas Documentos de ventas
+<p align="center">
+  <img src="img/excel_fc-lineas_documentos_ventas.png" alt="MasterHead">
 </p>
 
 1. **Pruebas en Postman**:
