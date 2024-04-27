@@ -3,7 +3,7 @@ package org.joseloc.javadevelopmentplayground.enums;
 import lombok.Getter;
 
 @Getter
-public enum IndiceLineaVenta {
+public enum IndiceLineaVentaFcNc {
 
     NRO_DOCUMENTO(0),
     NRO_LINEA(1),
@@ -19,14 +19,14 @@ public enum IndiceLineaVenta {
     LINEA(11),
     REGION(12);
 
-    IndiceLineaVenta(int index) {
+    IndiceLineaVentaFcNc(int index) {
         this.index = index;
     }
 
     private int index;
 
-    public static IndiceLineaVenta getByIndex(int index) {
-        for (IndiceLineaVenta value : IndiceLineaVenta.values()) {
+    public static IndiceLineaVentaFcNc getByIndex(int index) {
+        for (IndiceLineaVentaFcNc value : IndiceLineaVentaFcNc.values()) {
             if (value.getIndex() == index) {
                 return value;
             }

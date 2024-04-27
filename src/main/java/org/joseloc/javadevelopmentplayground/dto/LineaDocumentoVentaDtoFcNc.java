@@ -3,7 +3,7 @@ package org.joseloc.javadevelopmentplayground.dto;
 import lombok.Data;
 
 @Data
-public class LineaDocumentoVentaDto {
+public class LineaDocumentoVentaDtoFcNc {
     private String nroDocumento;
     private String nroLinea;
     private String tipoCodigo;

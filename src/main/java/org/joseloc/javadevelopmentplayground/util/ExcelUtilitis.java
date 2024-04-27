@@ -9,6 +9,10 @@ import java.io.IOException;
 import java.io.InputStream;
 
 public class ExcelUtilitis {
+
+    private ExcelUtilitis() {
+    }
+
     public static Workbook getWorkbook(MultipartFile file) throws IOException {
         try (InputStream inputStream = file.getInputStream()) {
             return WorkbookFactory.create(inputStream);

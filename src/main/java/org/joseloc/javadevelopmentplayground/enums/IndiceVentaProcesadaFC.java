@@ -3,7 +3,7 @@ package org.joseloc.javadevelopmentplayground.enums;
 import lombok.Getter;
 
 @Getter
-public enum IndiceVentaProcesada {
+public enum IndiceVentaProcesadaFC {
 
     NRO(0),
     RUT(1),
@@ -27,12 +27,12 @@ public enum IndiceVentaProcesada {
 
     private final int index;
 
-    IndiceVentaProcesada(int index) {
+    IndiceVentaProcesadaFC(int index) {
         this.index = index;
     }
 
-    public static IndiceVentaProcesada getByIndex(int index) {
-        for (IndiceVentaProcesada value : IndiceVentaProcesada.values()) {
+    public static IndiceVentaProcesadaFC getByIndex(int index) {
+        for (IndiceVentaProcesadaFC value : IndiceVentaProcesadaFC.values()) {
             if (value.getIndex() == index) {
                 return value;
             }
